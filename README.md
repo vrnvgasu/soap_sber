@@ -1,4 +1,10 @@
+# Soap
 ### Postman settings
+```
+url 
+http://localhost:8080/ws
+```
+
 ```
 HEADERS
 Content-Type: text/xml
@@ -28,4 +34,9 @@ raw: text
     </cityInfoReq>
   </soap:Body>
 </soap:Envelope>
+```
+
+# REST
+```
+http://localhost:8080/example/hello
 ```
