@@ -8,6 +8,26 @@ public class CityInformation {
 
 	private String responseTime;
 
+	private String detailedInfoHref;
+
+	private String deleteHref;
+
+	public String getDetailedInfoHref() {
+		return detailedInfoHref;
+	}
+
+	public void setDetailedInfoHref(String detailedInfoHref) {
+		this.detailedInfoHref = detailedInfoHref;
+	}
+
+	public String getDeleteHref() {
+		return deleteHref;
+	}
+
+	public void setDeleteHref(String deleteHref) {
+		this.deleteHref = deleteHref;
+	}
+
 	public String getCityId() {
 		return cityId;
 	}

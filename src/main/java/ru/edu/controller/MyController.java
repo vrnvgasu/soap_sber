@@ -28,6 +28,11 @@ public class MyController {
 		response.setCityId(cityId);
 		response.setName("Test");
 		response.setResponseTime(LocalDateTime.now().toString());
+
+		// actions for HATEOAS - Hypermedia As The Engine Of Application State
+		response.setDetailedInfoHref("http://localhost:8080/api/city/detailed?id=" + cityId);
+		response.setDeleteHref("http://localhost:8080/api/city/delete?id=" + cityId);
+
 		return response;
 	}
 
